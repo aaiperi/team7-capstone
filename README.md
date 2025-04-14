@@ -18,13 +18,13 @@ Team 7 is divided into two subteams, each working on a different yet complementa
 - Focus: Detect vehicle movement patterns using background subtraction and clustering
 - Model: SegFormer + MOG2 motion detection
 - Output: Direction tracking and anomaly detection (wrong-way driving, overspeeding)
-Members: Dong-Jae Jang, Min-Jun Choi, Rakshitha Nagaraj
+- Members: Dong-Jae Jang, Min-Jun Choi, Rakshitha Nagaraj
 
 ### 🔹 Team B – Frame Difference-Based Segmentation
 - Focus: Improve segmentation performance using difference images (computed between consecutive frames)
 - Model: SegFormer (Pre-trained on Cityscapes)
 - Output: Enhanced active region detection for efficient metadata-based video transmission
-Members: Seung-Hoon Lee, Min-Jun Choi, Aiperi Aibekova, Andrej Matos
+- Members: Seung-Hoon Lee, Min-Jun Choi, Aiperi Aibekova, Andrej Matos
 
 ---
 
@@ -60,6 +60,7 @@ pip install -r requirements.txt
 
 # 4. Run preprocessing or training scripts
 python src/main.py
+```
 
 ## Acknowledgment
 
